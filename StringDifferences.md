@@ -12,7 +12,7 @@ StringBuffer and StringBuilder are ***mutable*** objects in Java. They provide a
 
 | StringBuffer |  StringBuilder |
 |----------|:---------:|
-| StringBuffer is synchronized i.e. thread safe. It means two threads can't call the methods of StringBuffer simultaneously. | StringBuilder is non-synchronized i.e. not thread safe. It means two threads can call the methods of StringBuilder simultaneously.|
+| StringBuffer is ***synchronized i.e. thread safe.*** It means two threads can't call the methods of StringBuffer simultaneously. | StringBuilder is ***non-synchronized i.e. not thread safe.*** It means two threads can call the methods of StringBuilder simultaneously.|
 | StringBuffer is less efficient than StringBuilder. |StringBuilder is more efficient than StringBuffer.  |
 | StringBuffer was introduced in Java 1.0	 |StringBuilder was introduced in Java 1.5  |
 
