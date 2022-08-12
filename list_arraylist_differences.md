@@ -9,8 +9,8 @@
 
 ### ArrayList
 ArrayList is implemented as a resizable array. as more elements are added to arraylist, its size is increased dynamically. it's elements can be accessed directly by using the get and set methods, since arraylist is essentially an array.
-The default initial capacity of an arraylist is pretty small.
-It is a good habit to construct the arraylist with a higher initial capacity. this can avoid the resizing cost.
+- The default initial capacity of an arraylist is pretty small.
+- It is a good habit to construct the arraylist with a higher initial capacity. this can avoid the resizing cost.
 
 
 ## LinkedList
@@ -19,7 +19,7 @@ LinkedList is implemented as a double linked list. its performance on add and re
 
 ### Vector
 Vector is similar with ArrayList, but it is ***synchronized***.
-vector each time doubles its array size, while arraylist grow 50% of its size each time. 
+- vector each time doubles its array size, while arraylist grow 50% of its size each time. 
 
 
 
@@ -30,7 +30,7 @@ vector each time doubles its array size, while arraylist grow 50% of its size ea
 | get()  | O(1)  | O(n)   |
 | add()  | O(1)   | O(1) amortized  |
 |  remove() | O(n)   | O(n)   |
-|   |   |   |
+
 
 
 
